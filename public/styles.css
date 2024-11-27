@@ -1,12 +1,16 @@
 body {
-    margin: 0;
-    height: 100vh;
-    display: flex;
-  }
-  
-  #terminal-container {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-  }
-  
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center; /* Horizontally center the terminal */
+  align-items: center;     /* Vertically center the terminal */
+}
+
+#terminal-container {
+  width: 70%;              /* Set the width to 70% of the viewport */
+  height: 70%;             /* Set the height to 70% of the viewport */
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;  /* Optional: Add a border for visual clarity */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Optional: Add a shadow */
+}
